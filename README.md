@@ -1,6 +1,9 @@
 # Yale COVID-19 Statistics AR
 COVID-19 data visualizer for Yale University statistics using Unity and EchoAR. 
-Our project is an extension of a sample EchoAR Unity project
+Our project is an extension of a sample EchoAR Unity project.
+
+Check out our [Devpost](https://devpost.com/software/yale-covid-statistics-ar) for more information!
+
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).

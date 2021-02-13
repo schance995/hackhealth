@@ -8,4 +8,10 @@ root_SWL = BeautifulSoup(r_SWL.content)
 
 table_SWL = pd.read_html(root_SWL.find("table").prettify())
 
-print(table_SWL)
+df = table_SWL[0]
+categories = df.iloc[:,0][1:]
+cases = df.iloc[:,1][1:]
+
+for key, value in zip(categories, cases):
+    # api push to set the key to value
+    print(key.lower(), value)

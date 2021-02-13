@@ -1,5 +1,6 @@
-# Unity-echoAR-demo-COVID19
-Simple COVID-19 spread visualizer demo with Unity and echoAR.
+# Yale COVID-19 Statistics AR
+COVID-19 data visualizer for Yale University statistics using Unity and EchoAR
+Our project is an extension of a sample EchoAR Unity project
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).
@@ -21,8 +22,3 @@ Refer to our [documentation](https://docs.echoar.xyz/unity/) to learn more about
 
 ## Support
 Feel free to reach out at [support@echoAR.xyz](mailto:support@echoAR.xyz) or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE). 
-
-## Screenshots
-![Unity scene screenshot](/images/Unity.JPG)
-![echoAR console screenshot](/images/Console%20(Card%20Front).png)
-![echoAR console screenshot](/images/Console%20(Card%20Back).png)

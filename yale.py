@@ -11,7 +11,14 @@ table_SWL = pd.read_html(root_SWL.find("table").prettify())
 df = table_SWL[0]
 categories = df.iloc[:,0][1:]
 cases = df.iloc[:,1][1:]
-
-for key, value in zip(categories, cases):
+API_KEY='raspi-rice-3107'
+for data, value in zip(categories, cases):
     # api push to set the key to value
-    print(key.lower(), value)
+    data = {
+            'key': API_KEY,
+            'data': data.lower(),
+            'value': value
+            }
+    print(data)
+    x = requests.post(url='https://console.echoAR.xyz/', data=data)
+    print(x)

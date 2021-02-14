@@ -21,14 +21,15 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
     * beautifulsoup
     * requests
 * Edit the Python script and substitute in your API key.
+    * For production purposes, the API key should not be stored directly in the source code. But we didn't have time to do this.
 
 ## Run
 Simply press the _Play_ button in Unity.
 You can refresh the data in real time by running the Python script.
 
 ## Thanks
-* To HackHealth
-* To EchoAR for hosting
+* To Women in Computer Science at Stony Brook University for hosting the hackathon.
+* To EchoAR for providing their AR service.
 
 ## Copying
 * Please read the license for information.
